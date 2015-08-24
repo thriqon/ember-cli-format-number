@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-format-number",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Format number using numeral.js",
   "directories": {
     "doc": "doc",
@@ -11,7 +11,7 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/thriqon/ember-cli-format-number.git",
   "engines": {
     "node": ">= 0.10.0"
   },
