@@ -14,6 +14,15 @@ module.exports = {
       }
     },
     {
+      name: 'ember-1.13',
+      dependencies: {
+        'ember': 'components/ember#1.13.9'
+      },
+      resolutions: {
+        'ember': '1.13.9'
+      }
+    },
+    {
       name: 'ember-beta',
       dependencies: {
         'ember': 'components/ember#beta'
