@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-format-number",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Format number using numeral.js",
   "directories": {
     "doc": "doc",
