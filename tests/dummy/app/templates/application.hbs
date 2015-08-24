@@ -1,0 +1,28 @@
+<h2 id="title">Welcome to Ember</h2>
+
+{{outlet}}
+
+<table>
+	<tr>
+		<td>
+			10000
+		</td>
+		<td>
+			'0,0.0000'
+		</td>
+		<td>
+			{{format-number 10000 format="0,0.0000"}}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			7884486213
+		</td>
+		<td>
+			'0.0b'
+		</td>
+		<td>
+			{{format-number 7884486213 format="0.0b"}}
+		</td>
+	</tr>
+</table>
