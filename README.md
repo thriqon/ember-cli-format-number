@@ -1,5 +1,7 @@
 # Ember-cli-format-number
 
+[![Build Status](https://travis-ci.org/thriqon/ember-cli-format-number.svg)](https://travis-ci.org/thriqon/ember-cli-format-number)
+
 This README outlines the details of collaborating on this Ember addon.
 
 ## Usage
