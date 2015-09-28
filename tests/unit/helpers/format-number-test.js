@@ -11,7 +11,7 @@ test('it renders 1230974 as 1.2m', function (assert) {
 	assert.equal(formatNumber(1230974, {format: '0.0a'}), '1.2m');
 });
 
-test('renders [1000] as 1,000', function(assert) {
+test('it renders [1000] as 1,000', function(assert) {
   assert.equal(formatNumber([1000], {format: '0,0'}), '1,000');
 });
 
@@ -19,6 +19,6 @@ test('it renders undefined as 0', function(assert) {
   assert.equal(formatNumber(undefined), '0');
 });
 
-test('renders NaN as 0', function(assert) {
+test('it renders NaN as 0', function(assert) {
   assert.equal(formatNumber(NaN), 0);
 });
