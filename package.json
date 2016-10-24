@@ -47,7 +47,9 @@
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.5"
+    "ember-cli-babel": "^5.1.5",
+    "ember-cli-node-assets": "^0.1.4",
+    "numeral": "^1.5.3"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"

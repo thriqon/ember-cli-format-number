@@ -8,8 +8,5 @@
   },
   "resolutions": {
     "ember": "release"
-  },
-  "devDependencies": {
-    "numeral": "~1.5.3"
   }
 }

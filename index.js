@@ -2,23 +2,23 @@
 'use strict';
 
 module.exports = {
-	name: 'ember-cli-format-number',
-	included: function (app, parentAddon) {
-		this._super.included(app, parentAddon);
+  name: 'ember-cli-format-number',
+  options: {
+    nodeAssets: {
+      numeral: {
+        import: ['numeral.js', 'languages.js']
+      }
+    }
+  },
+  included: function (app, parentAddon) {
+    this._super.included.apply(this, arguments);
+    var target = parentAddon || app;
 
-		var target = parentAddon || app;
-
-		target.import(target.bowerDirectory + "/numeral/numeral.js", {
-			type: 'vendor'
-		});
-		target.import(target.bowerDirectory + "/numeral/languages.js", {
-			type: 'vendor'
-		});
-		target.import("vendor/ember-cli-format-number/shim.js", {
-			type: 'vendor',
-			exports: {
-				'numeral': ['default']
-			}
-		});
-	}
+    target.import("vendor/ember-cli-format-number/shim.js", {
+      type: 'vendor',
+      exports: {
+        'numeral': ['default']
+      }
+    });
+  }
 };
