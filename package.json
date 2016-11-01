@@ -13,7 +13,7 @@
   },
   "repository": "https://github.com/thriqon/ember-cli-format-number.git",
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 4"
   },
   "author": {
     "name": "Jonas Weber",
