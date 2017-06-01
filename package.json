@@ -47,7 +47,7 @@
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.5",
+    "ember-cli-babel": "^6.4.0",
     "ember-cli-node-assets": "^0.1.4",
     "numeral": "^1.5.6"
   },
