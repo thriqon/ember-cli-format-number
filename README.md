@@ -30,6 +30,10 @@ in templates:
 
 ## Running
 
+* Ember.js v3.12 or above
+* Ember CLI v2.13 or above
+* Node.js v10 or above
+
 * `ember server`
 * Visit your app at http://localhost:4200.
 
@@ -44,3 +48,13 @@ in templates:
 * `ember build`
 
 For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+
+
+## Contributing
+
+See the [Contributing](CONTRIBUTING.md) guide for details.
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md).
